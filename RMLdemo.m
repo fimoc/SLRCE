@@ -36,7 +36,7 @@ X_test_vali{3,1} = [X_test_v1 X_test_v2];
 options=[];
 options.lambda1=0.01; 
 options.lambda2=10;
-options.lambda3=0.0001;
+options.lambda3=0.01;
 options.alpha=[1e-5,1e-5];
 
 [P, Z, J ,E] = SLRCE(X_train_total,X_train_vali,gnd,options);
